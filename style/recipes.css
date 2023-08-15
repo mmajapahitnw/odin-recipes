@@ -7,15 +7,37 @@ img {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
+.back-link {
+    text-align: center;
+    display: block;
+}
 
 .recipe-card {
-    margin-left: 90px;
+    margin: 0 auto;
     width: 600px;
     background-color: khaki;
+    padding: 48px 32px;
 }
 
 h1 {
     font-size: 36px;
     text-align: center;
+    margin-top: 0;
+}
+
+.info-block {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+.info-block li {
+    box-sizing: border-box;
+    width: 200px;
+    display: inline-block;
+    text-align: center;
+}
+
+.info-block p {
+    margin: 8px;
 }
